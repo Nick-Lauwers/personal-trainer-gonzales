@@ -1,0 +1,81 @@
+.hero {
+	overflow: hidden;
+}
+
+.image-container-hero {
+	height: 100vh;
+  position: relative;
+}
+
+.image-hero {
+	object-fit: cover;
+	height: 100%;
+  width: 100%;
+  position: absolute;
+  right: 0;
+}
+
+.social-container-hero {
+	position: absolute;
+	bottom: 4em;
+	left: 3em;
+}
+
+.social-container-hero .social {
+	box-shadow: 0 0 2px #303339;
+}
+
+.text-container-hero {
+	position: relative;
+}
+
+.text-hero {
+	max-width: 500px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.title-container-hero {
+	font-family: 'Vollkorn', serif;
+	margin-right: -1000vh;
+	position: relative;
+}
+
+.title-hero {
+	font-size: 2.5em;
+	color: #3e4247;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.watermark-hero {
+	font-size: 12em;
+	line-height: 0;
+	color: rgba(48, 51, 57, 0.03);
+	position: absolute;
+	bottom: 0.25em;
+	left: 0.15em;
+}
+
+.description-hero {
+	margin-top: 7em;
+}
+
+.disclosure {
+	font-size: 0.8em;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	color: white;
+	background-color: black;
+	padding: 0.5em 0;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+}
+
+.disclosure span {
+	margin-left: 2em;
+}

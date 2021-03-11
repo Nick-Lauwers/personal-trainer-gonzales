@@ -1,0 +1,26 @@
+.list-programs {
+	list-style: none;
+	padding-left: 0;
+}
+
+.list-programs li:not(:last-child) {   
+  margin-bottom: 10em;
+}
+
+.list-programs li:nth-child(odd) .text-content-program {
+	text-align: right;
+	margin-right: 15px;
+}
+
+.list-programs li:nth-child(even) .text-content-program,
+.list-programs li:nth-child(odd) .image-container-program  {
+	margin-left: 15px;
+}
+
+.list-programs li:nth-child(even) .image-container-program  {
+	margin-right: 15px;
+}
+
+.list-programs li:nth-child(even) {
+	direction: rtl;
+}

@@ -1,0 +1,9 @@
+.list-testimonials {
+	list-style: none;
+	border-top: 1px solid #eeeeee;
+	border-left: 1px solid #eeeeee;
+	padding-left: 0;
+	margin-bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
+}

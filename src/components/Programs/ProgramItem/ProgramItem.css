@@ -1,0 +1,48 @@
+.program {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.col-program {
+	width: 50%;
+}
+
+.text-program {
+	position: relative;
+}
+
+.text-content-program {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.title-program {
+	font-size: 2em;
+	font-family: 'Vollkorn', serif;
+	margin-bottom: 0.8em;
+}
+
+.price-program {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	margin-bottom: 0.5em;
+}
+
+.image-container-program {
+	border: 2px solid black;
+	height: 350px;
+	width: 100%;
+}
+
+.image-program {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+@media (max-width: 768px) {
+	.col-program {
+		width: 100%;
+	}
+}

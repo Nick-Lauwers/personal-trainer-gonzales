@@ -1,0 +1,32 @@
+.text-container-home {
+	position: relative;
+}
+
+.text-home {
+	top: 50%;
+	transform: translateY(-50%);
+	position: absolute;
+}
+
+.title-home {
+	font-size: 2em;
+	font-family: 'Vollkorn', serif;
+}
+
+.description-home {
+	column-count: 2;
+	-webkit-column-count: 2; 
+	-moz-column-count: 2;
+	margin-top: 5em;
+}
+
+.image-container-home {
+	height: 500px;
+	width: 100%;
+}
+
+.image-home {
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+}
