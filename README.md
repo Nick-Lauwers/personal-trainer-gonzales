@@ -1,1 +1,1 @@
-A portfolio template for personal trainers
+A personal trainer website for Benjamin Gonzales.
